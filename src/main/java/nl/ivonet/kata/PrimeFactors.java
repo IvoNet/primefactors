@@ -1,6 +1,6 @@
 package nl.ivonet.kata;
 
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,6 +12,12 @@ import java.util.List;
  */
 public class PrimeFactors {
     public List<Integer> process(final int input) {
-        return Collections.emptyList();
+        final List<Integer> factors = new ArrayList<Integer>();
+
+        if (input ==  2) {
+            factors.add(2);
+        }
+
+        return factors;
     }
 }
