@@ -3,6 +3,7 @@ package nl.ivonet.kata;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.Collections;
 
 import static org.junit.Assert.assertEquals;
@@ -34,5 +35,10 @@ public class PrimeFactorsTest {
     @Test
     public void test3() throws Exception {
         assertEquals(Collections.singletonList(3), factors.process(3));
+    }
+
+    @Test
+    public void test4() throws Exception {
+        assertEquals(Arrays.asList(2, 2), factors.process(4));
     }
 }
