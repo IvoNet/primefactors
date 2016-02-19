@@ -16,9 +16,13 @@ public class PrimeFactorsTest {
         this.factors = new PrimeFactors();
     }
 
-
     @Test
     public void test0() throws Exception {
         assertEquals(Collections.emptyList(), factors.process(0));
+    }
+
+    @Test
+    public void test1() throws Exception {
+        assertEquals(Collections.emptyList(), factors.process(1));
     }
 }
