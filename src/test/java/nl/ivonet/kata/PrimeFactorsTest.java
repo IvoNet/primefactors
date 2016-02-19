@@ -41,4 +41,9 @@ public class PrimeFactorsTest {
     public void test4() throws Exception {
         assertEquals(Arrays.asList(2, 2), factors.process(4));
     }
+
+    @Test
+    public void test5() throws Exception {
+        assertEquals(Collections.singletonList(5), factors.process(5));
+    }
 }
