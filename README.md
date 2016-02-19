@@ -33,7 +33,7 @@ Google for what primefactors means if you don't know.
 
 I've taged just about all the steps taken to get to the solution.
 
-if you've cloned the repository you can step through the solution by starting with tag step_0 to step_18
+if you've cloned the repository you can step through the solution by starting with tag step_0 to step_19
 
 e.g. `git checkout step_0` or `git checkout step_10`
 
