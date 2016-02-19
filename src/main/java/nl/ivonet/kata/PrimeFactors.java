@@ -24,32 +24,7 @@ public class PrimeFactors {
         }
 
 
-        if (primefactor == 8) {
-            factors.add(2);
-            primefactor /= 2;
-        }
-        if (primefactor == 7) {
-            factors.add(7);
-            primefactor /= 7;
-        }
-        if (primefactor == 6) {
-            factors.add(2);
-            primefactor /= 2;
-        }
-        if (primefactor == 5) {
-            factors.add(5);
-            primefactor /= 5;
-        }
-        if (primefactor == 4) {
-            factors.add(2);
-            primefactor /= 2;
-        }
-        if (primefactor == 3) {
-            factors.add(3);
-        }
-        if (primefactor == 2) {
-            factors.add(2);
-        }
+
 
         return factors;
     }
