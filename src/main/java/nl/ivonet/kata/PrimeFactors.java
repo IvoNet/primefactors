@@ -8,8 +8,13 @@ public class PrimeFactors {
         int primefactor = input;
         final List<Integer> factors = new ArrayList<Integer>();
 
-        if (primefactor == 7 ) {
+        if (primefactor == 8) {
+            factors.add(2);
+            primefactor /= 2;
+        }
+        if (primefactor == 7) {
             factors.add(7);
+            primefactor /= 7;
         }
         if (primefactor == 6) {
             factors.add(2);
