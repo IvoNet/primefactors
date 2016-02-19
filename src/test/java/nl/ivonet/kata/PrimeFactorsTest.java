@@ -30,4 +30,9 @@ public class PrimeFactorsTest {
     public void test2() throws Exception {
         assertEquals(Collections.singletonList(2), factors.process(2));
     }
+
+    @Test
+    public void test3() throws Exception {
+        assertEquals(Collections.singletonList(3), factors.process(3));
+    }
 }
