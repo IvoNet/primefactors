@@ -22,10 +22,9 @@ public class PrimeFactors {
                 primefactor /= i;
             }
         }
-
-
-
-
+        if (primefactor > 1) {
+            factors.add(primefactor);
+        }
         return factors;
     }
 }
