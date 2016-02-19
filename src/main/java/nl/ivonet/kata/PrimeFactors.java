@@ -7,7 +7,6 @@ public class PrimeFactors {
     public List<Integer> process(final int input) {
         final List<Integer> factors = new ArrayList<Integer>();
 
-
         if (input ==  3) {
             factors.add(3);
         }
