@@ -2,7 +2,7 @@
 
 This kata is a TDD exercise.
 
-## Rulez of play
+## Rulez of the game
 
 * No line of production code is written without a failing test being made to work.
 * No more unit test code is written than strictly necessary to make a failing test work, where compile errors are also failures.
